@@ -6,9 +6,9 @@ public class factorial4 {
         return n * factorial(n - 1);
     }
     public double factorialR(double x,int n) {
-        double temp = 0;
+        double temp = 1;
         for (int i = 1; i <= n; i++) {
-            temp += Math.toDegrees(Math.pow(-1, i) * Math.pow(x, 2*i) / factorial(2*i));
+            temp += Math.pow(-1, i) * Math.pow(x, 2*i) / factorial(2*i);
         }
         return temp;
     }

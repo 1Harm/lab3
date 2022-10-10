@@ -5,7 +5,7 @@ public class Main {
 //        fac6 fc = new fac6();
 //        System.out.print(fc.factorialR(0.8,9));
         factorial4 c=new factorial4();
-        System.out.println(c.factorialR(0.2,9));
+        System.out.println(c.factorialR(60,9));
 
     }
 
