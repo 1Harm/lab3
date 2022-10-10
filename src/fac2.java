@@ -1,7 +1,7 @@
 public class fac2 {
     public int factorial(int n){
         if (n < 2) {
-            return n;
+            return 1;
         }
         return n * factorial(n - 1);
     }
